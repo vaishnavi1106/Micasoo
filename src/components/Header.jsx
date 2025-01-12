@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const HeaderWithNavbar = () => {
   return (
     <div className="relative w-screen h-screen">
@@ -45,7 +46,9 @@ const HeaderWithNavbar = () => {
           <Link to="/login">
           <button className="hover:underline cursor-pointer">Login</button>
           </Link>
-          <button className="hover:underline cursor-pointer">Join</button>
+          <Link to="/upload">
+          <button className="hover:underline cursor-pointer">Upload</button>
+          </Link>
           
         </div>
         
